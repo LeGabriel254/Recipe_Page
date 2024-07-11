@@ -63,4 +63,63 @@ li {
   list-style-type: decimal;
   color: brown;
  }
- 
+
+ .main h2{
+  margin-right: 510px;
+  color:  rgb(121, 92, 78);
+ }
+
+ .main li{
+line-height: 1.7;
+list-style-type: decimal;
+justify-content:space-between;
+padding: 0;
+text-align: start;
+color: brown;
+ }
+ .container table {
+  width: 100%;
+  margin-top: 20px;
+  
+}
+.container table td {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+
+.info h2{
+  margin-right: 510px;
+  color:  rgb(121, 92, 78);
+}
+
+.info p{
+  display: flex;
+  justify-content: start;
+  position: relative;
+  right: 50px;
+}
+
+/* Default styles for mobile (375px and below) */
+body {
+  font-size: 16px;
+  
+  /* Add other styles specific to mobile */
+}
+
+/* Styles for larger screens (from 376px to 1439px) */
+@media (min-width: 376px) {
+  body {
+    font-size: 18px;
+  
+    /* Add other styles specific to larger screens */
+  }
+}
+
+/* Styles for desktop (1440px and above) */
+@media (min-width: 1440px) {
+  body {
+    font-size: 20px;
+    
+    /* Add other styles specific to desktop */
+  }
+}
