@@ -3,7 +3,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: papayawhip;
+  background-color: #F3E5D8;
   height: auto;
 }
 
@@ -19,7 +19,7 @@ nav p {
 }
 
 .container {
-  background-color: white;
+  background-color: #FFFFFF;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -56,7 +56,7 @@ nav p {
 }
 
 li {
-  color: rgb(247, 142, 247);
+  color: #743851;
 }
 
 #time {
@@ -66,7 +66,7 @@ li {
 }
 
 #time h2 {
-  color: rgb(247, 142, 247);
+  color: #6D2F49;
   margin-top: 15px;
   display: flex;
   margin-left: 20px;
