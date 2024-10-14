@@ -161,12 +161,20 @@ body {
       width: 95%;
       padding: 15px;
   }
+  .container h1 {
+font-size: 1.5rem;
+line-height: 1.2;
+text-align:justify;
+
+  }
+
+  
 }
 
 /* Media query for mobile devices (480px and below) */
 @media screen and (max-width: 480px) {
   .container {
-      width: 100%;
+      width: 80%;
       padding: 10px;
   }
 
