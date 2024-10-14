@@ -8,7 +8,7 @@ body {
 }
 
 nav h1 {
-  display: flex;
+  /* display: flex; */
 }
 
 nav p {
@@ -162,12 +162,19 @@ body {
       padding: 15px;
   }
   .container h1 {
-font-size: 1.5rem;
+font-size: 1rem;
 line-height: 1.2;
-text-align:justify;
-
+/* text-align:center; */
+font-size-adjust: none;
   }
-
+  nav p {
+    line-height: 1.1;
+    text-align: justify;
+    font-size: 15px;
+    /* margin-right: 50px;
+    margin-left: 20px;
+  } */
+}
   
 }
 
