@@ -155,3 +155,23 @@ body {
     /* Add other styles specific to desktop */
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+      width: 95%;
+      padding: 15px;
+  }
+}
+
+/* Media query for mobile devices (480px and below) */
+@media screen and (max-width: 480px) {
+  .container {
+      width: 100%;
+      padding: 10px;
+  }
+
+  img {
+      width: 100%; /* Ensures the image fits within the container */
+      height: auto;
+  }
+}
