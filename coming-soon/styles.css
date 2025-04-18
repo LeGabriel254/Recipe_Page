@@ -18,5 +18,15 @@
 }
 
 .social-icons a:hover{
-  transform: translateY(-5px);
+  transform: translateY(2px);
+  background-color: bisque;
+}
+
+#form-feedback {
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+}
+
+#form-feedback.fade-in {
+  opacity: 1;
 }

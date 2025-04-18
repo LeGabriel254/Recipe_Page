@@ -8,6 +8,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <link rel="stylesheet" href="/coming-soon/styles.css">
   <link rel="shortcut icon" href="/coming-soon/assets/favicon.ico" type="image/x-icon">
+
   <style type="text/tailwindcss">
     @theme {
       --color-clifford: #da373d;
@@ -24,12 +25,16 @@
     <p class="p-2 text-black font-roboto ">Subscribe and get notified</p>
 
     <!-- Input notify section -->
-    <form class="">
+    <form class="flex flex-col gap-4 md:flex-row" id="email-submission"> <!--set row when on small screen -->
+
       <input type="email" placeholder="Your email address..."
-        class="rounded-full border py-2  px-6 border-blue-300  hover:border-gray-200">
-      <button
-        class="text-white text-lg font-mono bg-blue-500 rounded-full py-2 px-6 cursor-pointer hover:bg-blue-300">Notify
-        Me</button>
+        class="rounded-full border py-2  px-6 border-blue-300  hover:border-gray-200" id="user-email">
+
+      <button class="text-white text-lg font-mono bg-blue-500 rounded-full py-2 px-6 cursor-pointer hover:bg-blue-300"
+        type="submit">
+        Notify Me
+      </button>
+      <div id="form-feedback" class="text-red-300"></div>
     </form>
 
     <!-- Dashborad -->
@@ -39,10 +44,11 @@
 
     <!-- Social Icons -->
     <div class="social-icons ">
-      <a href="#"><i class="fa-brands fa-twitter"></i></a>
-      <a href="https://api.whatsapp.com/send?phone=254786800859"><i class="fa-brands fa-whatsapp"></i></a>
-      <a href="https://www.instagram.com/its.leon.__/"><i class="fa-brands fa-instagram"></i></a>
-      <a href="https://github.com/LeGabriel254"><i class="fa-brands fa-github"></i></a>
+      <a href="https://api.whatsapp.com/send?phone=254786800859" class="hover:text-blue-400"><i
+          class="fa-brands fa-facebook"></i></a>
+      <a href="#" class="hover:text-blue-400"><i class="fa-brands fa-twitter"></i></a>
+      <a href="https://www.instagram.com/its.leon.__/" class="hover:text-red-700"><i
+          class="fa-brands fa-instagram"></i></a>
     </div>
 
     <!-- Footer -->
@@ -50,6 +56,7 @@
       &copy;copyright Ping. All rights reserved.
     </footer>
   </section>
+  <script src="script.js"></script>
 </body>
 
 </html>
