@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (isValid) {
       feedbackDiv.textContent = "Notiffication sent successfully!";
       feedbackDiv.style.color = "#28a745";
-      form.reset(); // 💥 Clears the input field if valid
+      form.reset(); // Clears the input field if valid
     } else {
       feedbackDiv.innerHTML = message.join('<br>');
       feedbackDiv.style.color = "#dc3545";
@@ -39,6 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
       feedbackDiv.style.display = "none";
       feedbackDiv.textContent = "";
-    }, 1500);
+    }, 2000);
   });
 });
