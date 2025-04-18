@@ -1,9 +1,9 @@
 .social-icons {
- margin-top: 30px;
- 
+  margin-top: 30px;
+
 }
 
-.social-icons a{
+.social-icons a {
   display: inline-block;
   width: 35px;
   height: 40px;
@@ -17,7 +17,7 @@
   transition: 4s;
 }
 
-.social-icons a:hover{
+.social-icons a:hover {
   transform: translateY(2px);
   background-color: bisque;
 }
@@ -25,6 +25,8 @@
 #form-feedback {
   opacity: 0;
   transition: opacity 0.8s ease-in-out;
+  margin-top: 12px;
+  align-items: center;
 }
 
 #form-feedback.fade-in {
